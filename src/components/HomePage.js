@@ -3,7 +3,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import beer3 from '../assets/bar-close-up-beer-52251475.webp';
 import beer2 from '../assets/beers.png';
-import beer from '../assets/nightlife-celebration-multi-colored-bar-establishment-generative-ai_188544-12375.avif';
+import beer from '../assets/random-beer.png';
 import './HomePage.css';
 
 const HomePage = () => {
