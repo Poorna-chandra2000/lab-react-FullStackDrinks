@@ -1,0 +1,43 @@
+.new-beer-form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+  
+.new-beer-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+  
+.new-beer-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+  
+.new-beer-form input[type="text"],
+.new-beer-form input[type="number"],
+.new-beer-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+  
+.new-beer-form textarea {
+    resize: vertical; 
+}
+  
+.new-beer-form button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 100%;
+}
+  
+.new-beer-form button:hover {
+    background-color: #555;
+}
+  

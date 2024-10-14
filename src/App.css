@@ -1,38 +1,115 @@
-.App {
+/* src/styles.css */
+
+/* Header */
+
+
+header {
+  background-color: #2e65e6;
+  color: #fff;
+  padding: 10px 0;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: larger;
+  margin: 0 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Home Page */
+.home-page {
+  text-align: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.home-page h1 {
+  margin-top: 50px;
 }
 
-.App-link {
-  color: #61dafb;
+.home-page a {
+  display: block;
+  margin: 20px auto;
+  width: 200px;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Beer List */
+.beer-list {
+  margin-top: 20px;
+}
+
+.beer-list input[type="text"] {
+  margin-bottom: 20px;
+  padding: 8px;
+  width: 100%;
+}
+
+.beer-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.beer-list li {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.beer-list img {
+  width: 50px;
+  border-radius: 3px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+/* Beer Detail */
+.beer-detail {
+  margin-top: 20px;
+}
+
+.beer-detail img {
+  margin-bottom: 10px;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Random Beer */
+.random-beer {
+  margin-top: 20px;
+}
+
+.random-beer img {
+  margin-bottom: 10px;
+  display: block;
+  margin: 0 auto;
+}
+
+/* New Beer Form */
+.new-beer-form {
+  margin-top: 20px;
+}
+
+.new-beer-form input[type="text"],
+.new-beer-form input[type="number"],
+.new-beer-form textarea,
+.new-beer-form button {
+  margin-bottom: 10px;
+  padding: 8px;
+  width: 100%;
+}
+
+.new-beer-form button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.new-beer-form button:hover {
+  background-color: #555;
 }

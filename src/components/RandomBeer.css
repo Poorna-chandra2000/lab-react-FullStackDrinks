@@ -1,0 +1,32 @@
+.random-beer-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+  
+.random-beer {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+}
+  
+.random-beer img {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    max-width: 300px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+  
+.random-beer h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+  
+.random-beer p {
+    text-align: center;
+    margin-bottom: 5px;
+    color: #666;
+}
+  
