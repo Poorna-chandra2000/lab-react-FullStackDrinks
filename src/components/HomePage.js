@@ -1,8 +1,8 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom';
-import beer3 from '../assets/bar-close-up-beer-52251475.webp';
 import beer2 from '../assets/beers.png';
+import beer3 from '../assets/new-beer.png';
 import beer from '../assets/random-beer.png';
 import './HomePage.css';
 

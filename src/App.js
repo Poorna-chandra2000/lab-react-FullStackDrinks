@@ -12,7 +12,7 @@ function App() {
   return (
       <Router>
         <div>
-          <Header />
+          <Header  />
           <Routes>
             <Route path="/" exact Component={HomePage} />
             <Route path="/beers" exact Component={BeerList} />
